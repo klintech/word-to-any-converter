@@ -1,30 +1,62 @@
-# Word to Any Converter
+# 📝 Word to Any Converter
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern, AI-powered document converter built with **Next.js 15**, **React 19**, and **Tailwind CSS**. Easily convert `.docx`, `.pdf`, and `.odt` files into multiple formats including `.txt`, `.html`, `.rtf`, `.markdown`, `.epub`, and more — all through a beautiful and intuitive interface.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/clintonkelvin739-gmailcoms-projects/v0-classic-ui-improvements)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/8tRGftGcebl)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🚀 Live Demo
 
-## Deployment
+👉 [View App on Vercel](https://your-vercel-url.vercel.app)
 
-Your project is live at:
+---
 
-**[https://vercel.com/clintonkelvin739-gmailcoms-projects/v0-classic-ui-improvements](https://vercel.com/clintonkelvin739-gmailcoms-projects/v0-classic-ui-improvements)**
+## 🔧 Features
 
-## Build your app
+- 📁 Drag & Drop file upload or click-to-select
+- 🔄 Convert to: PDF, TXT, Markdown, HTML, RTF, EPUB, ODT
+- 📌 Rename converted files before download
+- ⏳ Real-time progress indicators
+- 📱 Fully responsive, mobile-first design
+- ♿️ Accessible UI (ARIA labels + semantic HTML)
+- 🌙 Light/Dark mode toggle
+- ⚠️ File type validation with error handling
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/8tRGftGcebl](https://v0.dev/chat/projects/8tRGftGcebl)**
+## 🛠️ Tech Stack
 
-## How It Works
+| Tech                 | Description                                      |
+|----------------------|--------------------------------------------------|
+| **Next.js 15.2.4**   | React-based framework with App Router support     |
+| **React 19**         | Core UI library for components and logic          |
+| **TypeScript 5**     | Typed JavaScript for safer, scalable code         |
+| **Tailwind CSS**     | Utility-first CSS framework for custom UI design |
+| **Shadcn/ui**        | Prebuilt modern components using Radix UI        |
+| **Lucide React**     | Beautiful icon library                           |
+| **CVA & clsx**       | Dynamic styling with variants                    |
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 🗂️ Project Structure
+
+```bash
+.
+├── app/                 # App Router pages & layouts
+├── components/          # Reusable UI components
+├── lib/                 # Utility functions & helpers
+├── public/              # Static files (icons, preview images)
+├── styles/              # Global styles
+├── tailwind.config.ts   # Tailwind configuration
+├── tsconfig.json        # TypeScript settings
+└── next.config.mjs      # Next.js custom configuration
+
+# 1. Clone the repository
+git clone https://github.com/klintech/word-to-any-converter.git
+cd word-to-any-converter
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
+npm run dev
