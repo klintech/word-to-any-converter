@@ -42,7 +42,6 @@ export default function WordConverter() {
   const handleFileSelect = (selectedFile: File) => {
     setFile(selectedFile)
     setConversionComplete(false)
-    // Auto-generate filename from original file
     const baseName = selectedFile.name.replace(/\.[^/.]+$/, "")
     setFileName(baseName)
   }
