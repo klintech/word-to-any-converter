@@ -7,7 +7,7 @@ A modern, AI-powered document converter built with **Next.js 15**, **React 19**,
 
 ## 🚀 Live Demo
 
-👉 [View App on Vercel](https://your-vercel-url.vercel.app)
+👉 [View App on Vercel](https://word-converter-mu.vercel.app/)
 
 ---
 
